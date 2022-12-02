@@ -1,4 +1,4 @@
-# Notes
+# Notes for CLI
 
 To start using postgres in Gitpod:
 Type `set_pg` in the terminal and return. Followed by `psql`. If you know the name of the database you want to connect to, you can type `psql -d Insert_name` instead.
@@ -34,3 +34,6 @@ Type `\o test.json`.
 
 To copy to a json file:
 Type `SELECT json_agg(t) FROM (SELECT * FROM "Table_name" WHERE "Column_name" = 'Specific_value') t;`
+
+# Notes for using Python and psycopg2 library
+
