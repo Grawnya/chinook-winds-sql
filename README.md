@@ -41,3 +41,5 @@ Type `SELECT * FROM "Table_name" WHERE false`.
 # Notes for using Python and psycopg2 library
 
 Object-Relational Mapping(ORM) - A method to query and manipulate data from your database using objects.
+
+Class-based Models - A collection of methods that serve a common purpose, with each method having its own purpose.
