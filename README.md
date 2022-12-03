@@ -33,7 +33,10 @@ To create a json file:
 Type `\o test.json`.
 
 To copy to a json file:
-Type `SELECT json_agg(t) FROM (SELECT * FROM "Table_name" WHERE "Column_name" = 'Specific_value') t;`
+Type `SELECT json_agg(t) FROM (SELECT * FROM "Table_name" WHERE "Column_name" = 'Specific_value') t;`.
+
+To see all the column names (using a column with no "false" values):
+Type `SELECT * FROM "Table_name" WHERE false`.
 
 # Notes for using Python and psycopg2 library
 
