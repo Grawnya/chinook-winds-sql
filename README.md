@@ -37,3 +37,4 @@ Type `SELECT json_agg(t) FROM (SELECT * FROM "Table_name" WHERE "Column_name" = 
 
 # Notes for using Python and psycopg2 library
 
+Object-Relational Mapping(ORM) - A method to query and manipulate data from your database using objects.
